@@ -1,0 +1,39 @@
+img {
+    width: 300px;
+    height: 100px;
+    align-items: center;
+}
+
+body {
+    text-align: center;
+    background-color: rgb(208, 169, 110);
+    z-index: 2;
+    position: relative;
+ }
+ .mami{
+    height: 410px;
+    position: relative;
+    border-radius: 10%;
+
+ }
+
+ 
+@media screen and (max-width:1000px){
+    .mami{
+        width: 90%;
+        height: 50%;
+    }
+}
+@media screen and (max-width:100px){
+    .mami2{
+        width:90%;
+        height: 90%; 
+        position: absolute;
+    }
+}
+@media screen and (max-width:1000px){
+    .topis{
+        width: 40%;
+        height: 10%;
+    }
+}
